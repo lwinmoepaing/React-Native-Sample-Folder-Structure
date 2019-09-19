@@ -10,11 +10,25 @@ Sample ReactNative Folder Structure
     ├── src                    
     │   ├── components  
     │   │   └─ ...      
+    │   │   
     │   ├── navigation  
     │   │   └── Navigation.js      
+    │   │   
     │   ├── screens         
     │   │   └── LoginScreen     
+    │   │       ├── Component     
+    │   │       │   └── ...     
     │   │       └── LoginScreen.js     
+    │   │   
     │   ├── store        
+    │   │   ├── actions     
+    │   │   │   ├── ...
+    │   │   │   └── actionTypes.js     
+    │   │   ├── reducers     
+    │   │   │    ├── ...
+    │   │   │    └── AuthReducer.js     
+    │   │   └── configStore.js      
+    │   │   
     │   └── styles     
-    
+    │
+    └── App.js
