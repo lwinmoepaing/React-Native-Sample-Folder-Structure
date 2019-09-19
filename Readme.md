@@ -7,16 +7,16 @@ Sample ReactNative Folder Structure
 
     .
     ├── ...
-    ├── src                    
-    │   ├── components  
-    │   │   └─ ...      
+    ├── src                             
+    │   ├── components                  # For All Common
+    │   │   └─ ...                      # All Common Components [ Reuseable]
     │   │   
-    │   ├── navigation  
+    │   ├── navigation                  # Navigator For Each App Screens
     │   │   └── Navigation.js      
     │   │   
-    │   ├── screens         
-    │   │   └── LoginScreen     
-    │   │       ├── Component     
+    │   ├── screens                     # Screens [ Activities ]
+    │   │   └── LoginScreen             # Screen Folder Name
+    │   │       ├── Component           # Screen Child Components[Can't Directly UseReduxStore]
     │   │       │   └── ...     
     │   │       └── LoginScreen.js     
     │   │   
