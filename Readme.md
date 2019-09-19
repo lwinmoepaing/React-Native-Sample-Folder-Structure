@@ -31,4 +31,7 @@ Sample ReactNative Folder Structure
     │   │   
     │   └── styles     
     │
-    └── App.js
+    ├── App.js
+    ├── app.json
+    ├── package.json
+    └── babel.config.js
