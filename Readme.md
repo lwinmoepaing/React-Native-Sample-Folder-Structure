@@ -9,7 +9,7 @@ Sample ReactNative Folder Structure
     ├── ...
     ├── src                             
     │   ├── components                  # For All Common
-    │   │   └─ ...                      # All Common Components [ Reuseable]
+    │   │   └─ ...                      # All Common Components [Reuseable]
     │   │   
     │   ├── navigation                  # Navigator For Each App Screens
     │   │   └── Navigation.js      
@@ -18,20 +18,20 @@ Sample ReactNative Folder Structure
     │   │   └── LoginScreen             # Screen Folder Name
     │   │       ├── Component           # Screen Child Components[Can't Directly UseReduxStore]
     │   │       │   └── ...     
-    │   │       └── LoginScreen.js     
+    │   │       └── LoginScreen.js      # Screen Parent Component[Can Directly Use Redux]
     │   │   
-    │   ├── store        
-    │   │   ├── actions     
+    │   ├── store                       # Redux Store
+    │   │   ├── actions                 # All Actions 
     │   │   │   ├── ...
     │   │   │   └── actionTypes.js     
-    │   │   ├── reducers     
+    │   │   ├── reducers                # All Reducers
     │   │   │    ├── ...
     │   │   │    └── AuthReducer.js     
-    │   │   └── configStore.js      
+    │   │   └── configStore.js          # Configs Binding eg. createStore & combineReducers
     │   │   
-    │   └── styles     
+    │   └── styles                      # Main Template Styles [ Common Style ]
     │
-    ├── App.js
+    ├── App.js                          # Entry Main js
     ├── app.json
     ├── package.json
     └── babel.config.js
