@@ -5,7 +5,7 @@ Sample ReactNative Folder Structure
 
 ### the best structure from my perspective .
 
-  .
+    .
     ├── ...
     ├── src                    
     │   ├── components  
@@ -16,4 +16,5 @@ Sample ReactNative Folder Structure
     │   │   └── LoginScreen     
     │   │       └── LoginScreen.js     
     │   ├── store        
-    │   └── styles                
+    │   └── styles     
+    
